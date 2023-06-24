@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/build/app.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="icon" href="/src/img/favicon.png" type="image/png">
+    <title>Saga Assassin's Creed</title>
+</head>
+<body class="bg-black m-0 h-screen grid place-items-center overflow-hidden">
+    
+    <div class="swippe ">
+        <div class="groups mx-auto">
+            <div class="group absolute" data-index="0" data-status="active">
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+            </div>
+            <!-- --- fin -->
+            <div class="group absolute" data-index="1" data-status="unknown">
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+            </div>
+            <!-- --- fin -->
+            <div class="group absolute" data-index="2" data-status="unknown">
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+            </div>
+            <!-- --- fin -->
+            <div class="group absolute" data-index="3" data-status="unknown">
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+                <div class="little__card card absolute bg-cover bg-center "></div>
+                <div class="big__card rounded-xl card absolute bg-cover bg-center "></div>
+            </div>
+        </div>
+
+        <div class="swipper__buttons flex justify-center items-center mt-16 ">
+            <button id="prev" onclick="prevClick();" class="grid w-24 md:w-auto hover:-rotate-90 transition-all duration-500 ease-in-out mt-5">
+                <img class="scalar" src="/src/img/nextyprev.png" alt="imagen next">
+            </button>
+            <button id="next" onclick="nextClick();" class="grid  w-24 md:w-auto cursor-fancy hover:rotate-90  transition-all duration-500 ease-in-out mt-5">
+                <img class="scalar" src="/src/img/next.png" alt="imagen next">
+            </button>
+        </div>
+    </div>
+
+
+    <script src="/src/js/index.js"></script>
+</body>
+</html>
